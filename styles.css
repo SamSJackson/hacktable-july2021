@@ -1,0 +1,66 @@
+html {
+	background: url("317818.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.icon-bar {
+	position:fixed;
+	top: 95%;
+	text-align: left;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	letter-spacing: 4px;	 
+	background-color: white;
+	width: 100%;
+	height: 50px;
+}
+
+.icon-bar a:hover {
+	background-color: #fff;
+}
+
+#youtube {
+	border-radius: 4px;
+	color: red;
+}
+
+#twitter {
+	border-radius: 4px;
+	color: skyblue;
+}
+
+#facebook {
+	border-radius: px;
+	color: royalblue;
+}
+
+#HEADER_TEXT {
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:80px;
+	letter-spacing: 5px;
+	word-spacing:10px;
+}
+
+.header input[type=text] {
+	border-radius: 20px;
+	padding: 6px;
+	border: none;
+	margin-bottom: 10px;
+	font-size: 17px;
+}
+
+.border_w {
+	border-radius:20px;
+	background-image: linear-gradient(#D0D0D0, #ffffff, #D0D0D0);
+	background-color: white;
+	margin-top:2%;
+	margin-bottom: 2%;
+	margin-left:15%;
+	margin-right:15%;
+	height: 800px;
+}

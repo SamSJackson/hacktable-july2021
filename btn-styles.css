@@ -1,0 +1,107 @@
+/*
+Animated buttons 
+*/
+.btn-main-hover {
+	border-radius: 20px;
+	background-color: #006400;
+	border: none;
+	color: #ffffff;
+	font-size: 28px;
+	width: 150px;
+	transition: all 0.5s;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	height: 58%;
+	width: 21%;
+	margin-top: 1%;
+	cursor: pointer;
+	position:absolute;
+}
+.btn-main-hover span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.btn-main-hover:hover {
+	background-color: #507b00;
+}
+
+.btn-main-hover span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.btn-main-hover:hover span {
+	padding-right: 25px;
+}
+
+.btn-main-hover:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+#Map {
+	opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+	left: 17%;
+}
+
+#Map:hover {
+	opacity: 1.0;
+    transition: opacity .30s ease-in-out;
+    -moz-transition: opacity .30s ease-in-out;
+    -webkit-transition: opacity .30s ease-in-out;
+	background-image: url("planet-observer_POTCEU.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1240px;
+}
+
+#News {
+	opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+	right: 39.6%;
+}
+
+#News:hover {
+	opacity: 1.0;
+    transition: opacity .30s ease-in-out;
+    -moz-transition: opacity .30s ease-in-out;
+    -webkit-transition: opacity .30s ease-in-out;
+	background-image: url("arcticClimate.jpg");
+}
+
+#WYCD {
+	opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+	right: 17%;
+}
+
+#WYCD:hover {
+	opacity: 1.0;
+    transition: opacity .30s ease-in-out;
+    -moz-transition: opacity .30s ease-in-out;
+    -webkit-transition: opacity .30s ease-in-out;
+	background-image: url("newFile-1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1200px;
+}
+
+#News_Photo {
+	width: 80%;
+	height: 50%;
+}
+

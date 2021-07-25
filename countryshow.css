@@ -1,0 +1,102 @@
+html {
+	background-image: url("countrybackground.jpg");
+	background-size: relative;
+}
+
+#home {
+	color: white;
+	font-size: 350%;
+	position: fixed;
+}
+#back {
+	color: white;
+	left: 3%;
+	font-size: 60px;
+	position: fixed;
+}
+
+#austria {
+	display: None;
+}
+#belgium {
+	display: None;
+}
+#bulgaria {
+	display: None;
+}
+#croatia {
+	display: None;
+}
+#cyprus {
+	display: None;
+}
+#czechia {
+	display: None;
+}
+#denmark {
+	display: None;
+}
+#estonia {
+	display: None;
+}
+#france {
+	display: None;
+}
+#finland {
+	display: None;
+}
+#germany {
+	display: None;
+}
+#greece {
+	display: None;
+}
+#hungary {
+	display: None;
+}
+#ireland {
+	display: None;
+}
+#italy {
+	display: None;
+}
+#latvia {
+	display: None;
+}
+#lithuania {
+	display: None;
+}
+#luxembourg {
+	display: None;
+}
+#netherlands {
+	display: None;
+}
+#norway {
+	display: None;
+}
+#poland {
+	display: None;
+}
+#portugal {
+	display: None;
+}
+#romania {
+	display: None;
+}
+#slovakia {
+	display: None;
+}
+#slovenia {
+	display: None;
+}
+#spain {
+	display: None;
+}
+#sweden {
+	display: None;
+}
+#united-kingdom {
+	display: None;
+}
+

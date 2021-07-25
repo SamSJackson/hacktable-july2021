@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="map_css.css">
+		<link rel="stylesheet" type="text/css" href="cssmap-europe/cssmap-europe.css" media="screen"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/62b3b65681.js" crossorigin="anonymous"></script> 
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+		<body>
+			<a href="index.html"><i class="fas fa-tree" id="home"></i></a>
+
+			<!-- 
+			Title header at top of screen.
+			-->
+			<center>
+				<h1 id="map_header">MAP TO RECOVERY</h1> 
+			</center>	
+			<!-- CSSMap - Europe -->
+			<center>
+			<div class="map_background">
+
+			<div id="map-europe">
+				<ul class="europe">
+				  <li class="eu3"><a href="countryprogress.html#austria">Austria</a></li>
+				  <li class="eu5"><a href="countryprogress.html#belgium">Belgium</a></li>
+				  <li class="eu7"><a href="countryprogress.html#bulgaria">Bulgaria</a></li>
+				  <li class="eu8"><a href="countryprogress.html#croatia">Croatia</a></li>
+				  <li class="eu9"><a href="countryprogress.html#cyprus">Cyprus</a></li>
+				  <li class="eu10"><a href="countryprogress.html#czechia">Czech Republic</a></li>
+				  <li class="eu11"><a href="countryprogress.html#denmark">Denmark</a></li>
+				  <li class="eu12"><a href="countryprogress.html#estonia">Estonia</a></li>
+				  <li class="eu13"><a href="countryprogress.html#france">France</a></li>
+				  <li class="eu14"><a href="countryprogress.html#finland">Finland</a></li>
+				  <li class="eu16"><a href="countryprogress.html#germany">Germany</a></li>
+				  <li class="eu17"><a href="countryprogress.html#greece">Greece</a></li>
+				  <li class="eu18"><a href="countryprogress.html#hungary">Hungary</a></li>
+				  <li class="eu20"><a href="countryprogress.html#ireland">Ireland</a></li>
+				  <li class="eu22"><a href="countryprogress.html#italy">Italy</a></li>
+				  <li class="eu24"><a href="countryprogress.html#latvia">Latvia</a></li>
+				  <li class="eu26"><a href="countryprogress.html#lithuania">Lithuania</a></li>
+				  <li class="eu27"><a href="countryprogress.html#luxembourg">Luxembourg</a></li>
+				  <li class="eu33"><a href="countryprogress.html#netherlands">Netherlands</a></li>
+				  <li class="eu34"><a href="https://www.google.com/search?q=fuck+you+norway" link='_blank'>Norway</a></li>
+				  <li class="eu35"><a href="countryprogress.html#poland">Poland</a></li>
+				  <li class="eu36"><a href="countryprogress.html#portugal">Portugal</a></li>
+				  <li class="eu37"><a href="countryprogress.html#romania">Romania</a></li>
+				  <li class="eu40"><a href="countryprogress.html#slovakia">Slovakia</a></li>
+				  <li class="eu41"><a href="countryprogress.html#slovenia">Slovenia</a></li>
+				  <li class="eu42"><a href="countryprogress.html#spain">Spain</a></li>
+				  <li class="eu43"><a href="countryprogress.html#sweden">Sweden</a></li>
+				  <li class="eu47"><a href="countryprogress.html#united-kingdom">United Kingdom</a></li>
+			    </ul>
+			</div>
+
+			<!-- END OF THE CSSMap - Europe -->
+			<div id="image_graph_div">
+				<img src="SeaLevel/Graph.jpg"></img>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="w3-content w3-display-container">
+			  <img class="mySlides" src="SeaLevel/BaseMap.jpg" style="width:100%">
+			  <img class="mySlides" src="SeaLevel/1.jpg" style="width:100%">
+			  <img class="mySlides" src="SeaLevel/2.jpg" style="width:100%">
+			  <img class="mySlides" src="SeaLevel/3.jpg" style="width:100%">
+			  <img class="mySlides" src="SeaLevel/4.jpg" style="width:100%">
+
+			  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+			</div>
+
+
+
+
+			<script>
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+				  showDivs(slideIndex += n);
+				}
+
+				function showDivs(n) {
+				  var i;
+				  var x = document.getElementsByClassName("mySlides");
+				  if (n > x.length) {slideIndex = 1}
+				  if (n < 1) {slideIndex = x.length}
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.display = "none";  
+				  }
+				  x[slideIndex-1].style.display = "block";  
+				}
+			</script>
+
+
+			<!-- jQuery -->
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+			<!-- CSSMap SCRIPT -->
+			<script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
+
+			<script type="text/javascript">
+				$(document).ready(function(){
+
+				// CSSMap;
+				$("#map-europe").CSSMap({
+				  "size": 1450
+				});
+				// END OF THE CSSMap;
+
+				});
+			</script>
+			</div>
+		</center>
+
+		</body>
+</html>
